@@ -32,7 +32,7 @@ class Users():
                     for users in miqdors:
                         if users["phone_number"] == phone_number1:
                             new_users = users
-                            miqdor = int(input("Gaz uchun to'lov miqdorin kiriting>>>"))git
+                            miqdor = int(input("Gaz uchun to'lov miqdorin kiriting>>>"))
                             if miqdor <= users["balanc"]:
                                 balance = users["balanc"] - miqdor
                                 balance2 = my["balanc"] + miqdor
